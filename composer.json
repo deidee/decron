@@ -9,5 +9,7 @@
             "email": "info@deidee.nl"
         }
     ],
-    "require": {}
+    "require": {
+        "j7mbo/twitter-api-php": "^1.0"
+    }
 }

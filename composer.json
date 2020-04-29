@@ -1,0 +1,13 @@
+{
+    "name": "deidee/decron",
+    "description": "Tijdsafhankelijke taken instellen.",
+    "type": "project",
+    "license": "propriority",
+    "authors": [
+        {
+            "name": "deidee",
+            "email": "info@deidee.nl"
+        }
+    ],
+    "require": {}
+}

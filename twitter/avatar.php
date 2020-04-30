@@ -1,5 +1,7 @@
 <?php
 
+chdir(dirname(__FILE__));
+
 error_reporting(-1);
 
 $config = parse_ini_file(dirname(__DIR__) . '/config.ini');
@@ -14,7 +16,7 @@ $settings = array(
 );
 
 $url = 'https://api.twitter.com/1.1/account/update_profile_image.json';
-$file = file_get_contents('564011_10150987745223956_1777701739_n.jpg');
+$file = file_get_contents('541355_10150864051868956_181292363_n.jpg');
 $image = base64_encode($file);
 $postfield = ['image' => $image];
 $requestMethod = 'POST';

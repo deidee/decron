@@ -20,7 +20,7 @@ $settings = array(
 );
 
 $url = 'https://api.twitter.com/1.1/account/update_profile_image.json';
-//$file = file_get_contents('564011_10150987745223956_1777701739_n.jpg');
+$file = file_get_contents('564011_10150987745223956_1777701739_n.jpg');
 $image = base64_encode($logo);
 $postfield = ['image' => $image];
 $requestMethod = 'POST';

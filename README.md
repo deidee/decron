@@ -1,13 +1,18 @@
 # ![decron](https://deidee.com/logo.png?str=deCron)
 
-Tijdsafhankelijke taken instellen.
+Tijdsafhankelijke taken instellen voor deidee.
 
 ## Opdracht
 
 ```Shell
 /usr/local/php72/bin/php /home/decake/decron/test.php
+/usr/local/php72/bin/php /home/decake/decron/twitter/avatar.php
 ```
-Verwacht resultaat: teller in ``test.txt`` een hoger bij elke uitvoer (elk uur).
+
+Verwacht resultaat:
+
+- teller in ``test.txt`` een hoger bij elke uitvoer (elk uur);
+- profielfoto van Twitter-account @ACJ wordt aangepast.
 
 ## Suggesties
 
